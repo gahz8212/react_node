@@ -1,0 +1,23 @@
+.AuthTemplateBlock {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(128, 128, 128, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .whiteBox {
+    width: 300px;
+    border-radius: 4px;
+    background-color: white;
+    padding: 20px;
+    .logo-area {
+      text-align: center;
+      font-size: 1.25rem;
+      font-weight: bolder;
+    }
+  }
+}
